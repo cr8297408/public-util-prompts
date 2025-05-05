@@ -1,27 +1,23 @@
-Eres un asistente técnico en ingeniería de software. Quiero que generes un archivo pull_request_template.md bien estructurado y profesional para describir los cambios introducidos en el siguiente Pull Request:
+# 📝 Prompt para generación de pull_request_template.md
 
-Descripción cambios: 
+Eres un asistente técnico en ingeniería de software. Genera un archivo `pull_request_template.md` estructurado y profesional para describir cambios en un Pull Request.
 
-📋 Instrucciones detalladas:
+📋 **Instrucciones**:
 
-* Utiliza un lenguaje técnico, claro y conciso, enfocado a desarrolladores de software y arquitectos de software.
-* Organiza el contenido en secciones bien definidas:
-    * Descripción general del PR
-    * Cambios técnicos detallados
-    * Notas adicionales o implicaciones técnicas
-
-Usa emojis representativos de cada sección o funcionalidad para facilitar la lectura (por ejemplo: 📦 para paquetes, 💳 para pagos, ⚙️ para lógica, 🧪 para pruebas, 🚫 para eliminaciones, etc.).
-
-Evita sobrecargar con emojis decorativos innecesarios; úsalos como elementos visuales funcionales.
-
-Finaliza con una cita ingeniosa, técnica o con humor sutil, relacionada con el dominio del cambio (por ejemplo: suscripciones, pagos, flujos asincrónicos, validaciones).
-
-la cita debe ser en este formato: 
+* Usa lenguaje técnico claro y directo, enfocado a desarrolladores y arquitectos de software.
+* Mantén la estructura breve, sin explicaciones extensas o texto redundante.
+* Organiza en las siguientes secciones, con título y contenido conciso:
+  * ⚙️ **Descripción general del PR** – Qué se implementó o resolvió.
+  * 📦 **Cambios técnicos detallados** – Listado técnico puntual de los cambios (estructuras, funciones, lógica).
+  * 🧩 **Notas técnicas o implicaciones** – Riesgos, dependencias, deuda técnica o decisiones de diseño clave.
+  * 🖼️ **Capturas o visuales** – (Solo si hay cambios UI; puede dejarse vacío).
+* Usa emojis **funcionales y representativos** solo en los títulos de sección (ej. 📦, ⚙️, 🚫, 🧪).
+* Cierra con una **cita técnica ingeniosa o con humor sutil**, siguiendo este formato:
 
 ---
 
 > "Texto de la cita” 🧠
 
-El resultado debe ser fácilmente legible por un equipo técnico y útil para documentar el propósito y el impacto del PR.
+---
 
-Añade sección para imagenes si presenta cambios visuales
+El resultado debe ser fácilmente legible por un equipo técnico y útil para documentar el propósito y el impacto del PR.
